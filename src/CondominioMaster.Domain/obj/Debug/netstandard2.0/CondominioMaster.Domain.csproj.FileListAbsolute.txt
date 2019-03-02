@@ -10,3 +10,7 @@ F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstanda
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.csproj.CopyComplete
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.pdb
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.dll
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.pdb
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.dll
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.pdb

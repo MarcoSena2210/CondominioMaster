@@ -7,3 +7,8 @@ F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\obj\Debug\ne
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\obj\Debug\netstandard2.0\CondominioMaster.Domain.Shared.AssemblyInfo.cs
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\obj\Debug\netstandard2.0\CondominioMaster.Domain.Shared.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\obj\Debug\netstandard2.0\CondominioMaster.Domain.Shared.pdb
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.dll
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.pdb
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\obj\Debug\netstandard2.0\CondominioMaster.Domain.Shared.csproj.CopyComplete
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.dll
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain.Shared\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.pdb

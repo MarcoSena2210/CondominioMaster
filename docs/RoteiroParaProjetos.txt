@@ -7,6 +7,7 @@
     4-Infra
     4.1-Infra.Data
     4.2-Infra.CrossCutting
+
 aula-2
 Criar o arquivo que informa a versão que iremos trabalhar na solution,global.json
 
@@ -20,3 +21,5 @@ Criar o arquivo que informa a versão que iremos trabalhar na solution,global.jso
 	Interfaces-->Repository-->Agregacao<Nome da acregação>	
 	Interfaces-->Services-->Agregacao<Nome da acregação>	
 	Services-->Agregacao<Nome da acregação>	
+
+Vamos criar as entidades ainda anemicas, do projeto

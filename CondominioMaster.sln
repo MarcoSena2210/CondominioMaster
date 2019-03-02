@@ -19,9 +19,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{68
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{208FC24A-DF91-47B7-9ED2-995B9201762C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioMaster.Domain", "src\CondominioMaster.Domain\CondominioMaster.Domain.csproj", "{182B7266-FCDB-4940-AE89-BE083B241E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Domain", "src\CondominioMaster.Domain\CondominioMaster.Domain.csproj", "{182B7266-FCDB-4940-AE89-BE083B241E23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioMaster.Domain.Shared", "src\CondominioMaster.Domain.Shared\CondominioMaster.Domain.Shared.csproj", "{E31F993B-F3F3-4500-87CD-92A6DCDE3319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Domain.Shared", "src\CondominioMaster.Domain.Shared\CondominioMaster.Domain.Shared.csproj", "{E31F993B-F3F3-4500-87CD-92A6DCDE3319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioMaster.Infra.Data", "src\CondominioMaster.Infra.Data\CondominioMaster.Infra.Data.csproj", "{79D4D6BA-8179-4F99-829B-C51C5017C636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioMaster.Infra.CrossCutting", "src\CondominioMaster.Infra.CrossCutting\CondominioMaster.Infra.CrossCutting.csproj", "{62769D83-263A-407D-937E-71F7E2A42498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioMaster.Infra.CrossCutting.IoC", "src\CondominioMaster.Infra.CrossCutting.IoC\CondominioMaster.Infra.CrossCutting.IoC.csproj", "{CE407A54-89EB-4746-BDCE-A50B6649F61F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,18 @@ Global
 		{E31F993B-F3F3-4500-87CD-92A6DCDE3319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E31F993B-F3F3-4500-87CD-92A6DCDE3319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E31F993B-F3F3-4500-87CD-92A6DCDE3319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D4D6BA-8179-4F99-829B-C51C5017C636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D4D6BA-8179-4F99-829B-C51C5017C636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D4D6BA-8179-4F99-829B-C51C5017C636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D4D6BA-8179-4F99-829B-C51C5017C636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62769D83-263A-407D-937E-71F7E2A42498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62769D83-263A-407D-937E-71F7E2A42498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62769D83-263A-407D-937E-71F7E2A42498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62769D83-263A-407D-937E-71F7E2A42498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE407A54-89EB-4746-BDCE-A50B6649F61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE407A54-89EB-4746-BDCE-A50B6649F61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE407A54-89EB-4746-BDCE-A50B6649F61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE407A54-89EB-4746-BDCE-A50B6649F61F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +64,9 @@ Global
 		{208FC24A-DF91-47B7-9ED2-995B9201762C} = {59514C0E-E9D0-4DC5-B2CD-6956DA12ABFB}
 		{182B7266-FCDB-4940-AE89-BE083B241E23} = {838E2EFE-D370-48DC-9FD2-70134331BB3C}
 		{E31F993B-F3F3-4500-87CD-92A6DCDE3319} = {838E2EFE-D370-48DC-9FD2-70134331BB3C}
+		{79D4D6BA-8179-4F99-829B-C51C5017C636} = {6845A8BC-4240-47AA-AA45-B1EDA088C90E}
+		{62769D83-263A-407D-937E-71F7E2A42498} = {208FC24A-DF91-47B7-9ED2-995B9201762C}
+		{CE407A54-89EB-4746-BDCE-A50B6649F61F} = {208FC24A-DF91-47B7-9ED2-995B9201762C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDB3C190-DDF9-4E38-B869-5F934F6D0E47}
