@@ -1,0 +1,22 @@
+1-Criar a solução
+1.1-Crias as pastas virtuais do nosso DDD
+    0-Presentaion
+    1-Services
+    2-Application
+    3-Domain
+    4-Infra
+    4.1-Infra.Data
+    4.2-Infra.CrossCutting
+aula-2
+Criar o arquivo que informa a versão que iremos trabalhar na solution,global.json
+
+1-Criar o projeto de Dominio(nome do projeto.Domain), tipo Class Libery (.net Standard),já incorpora o core
+2-Criar o projeto de Dominio compartilhado(nome do projeto.Domain.Shared), tipo Class Libery (.net Standard),já incorpora o core
+	No projeto do dominio refereciar o domain.shared
+
+3-Criar as pastas fisicas de Domain:
+	DTO
+	Entidades>Agregacao<Nome da acregação>		
+	Interfaces-->Repository-->Agregacao<Nome da acregação>	
+	Interfaces-->Services-->Agregacao<Nome da acregação>	
+	Services-->Agregacao<Nome da acregação>	

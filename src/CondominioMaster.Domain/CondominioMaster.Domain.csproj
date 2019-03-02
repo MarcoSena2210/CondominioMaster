@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CondominioMaster.Domain.Shared\CondominioMaster.Domain.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO\" />
+    <Folder Include="Entidades\AgregacaoEdificacao\" />
+    <Folder Include="Interfaces\Repository\AgregacaoEdificacao\" />
+    <Folder Include="Interfaces\Services\AgregacaoEdificacao\" />
+    <Folder Include="Services\AgregacaoEdificacao\" />
+  </ItemGroup>
+
+</Project>
