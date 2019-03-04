@@ -1,4 +1,6 @@
-﻿using CondominioMaster.Domain.Shared.Entidades;
+﻿using CondominioMaster.Domain.Entities.AgregacaoEdificacao;
+using CondominioMaster.Domain.Shared.Entities;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace CondominioMaster.Domain.Entities
@@ -6,13 +8,11 @@ namespace CondominioMaster.Domain.Entities
     public class Pessoa : PessoaBase
     {
 
-       
+        public ICollection<Imovel> Imoveis { get; set; }
+
         public override bool EstaConsistente()
         {
-            PrimeiroNomeDeveSerPreenchido();
-            PrimeiroNomeDeveTerUmTamanhoLimite(50);
-            UltimoNomeDeveSerPreenchido();
-            UltimoNomeDeveTerUmTamanhoLimite(50);
+         
             CPFouCNPJDeveSerPreenchido();
             CPFouCNPJDeveSerValido();
             EmaiDeveSerValido();

@@ -1,4 +1,4 @@
-﻿using CondominioMaster.Domain.Shared.Entidades;
+﻿using CondominioMaster.Domain.Shared.Entities;
 using CondominioMaster.Domain.Shared.Enums;
 using System.Linq;
 
@@ -36,7 +36,11 @@ namespace CondominioMaster.Domain.Entities.AgregacaoEdificacao
         }
 
         public int IdCondominio { get; private set; }
+        public virtual Condominio Condominio { get; private set; }
+
         public int IdEdificacao { get; private set; }
+        public virtual Edificacao Edificacao { get; private set; }
+
         public byte NumeroImoveisPorEdificacao { get; private set; }
         public byte DiaVencimentoBoleto { get; private set; }
         public byte DiaParaDesconto { get; private set; }

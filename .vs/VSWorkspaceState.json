@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\CondominioMaster.Domain"
+    ""
   ],
-  "SelectedNode": "\\src\\CondominioMaster.Domain\\CondominioMaster.Domain.csproj",
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,137 @@
+1.	ATIVO						T
+1.1	Circulante					T
+1.1.01	Disponível					T	
+1.1.01.01	Caixa					L
+1.1.01.02	Banco conta movimento			L
+1.1.01.02.01	Banco do Brasil S/A.			L
+1.1.01.02.02	Banco Itaú S/A.				L
+1.1.01.03	Poupança – Fundo de Reserva		L
+1.1.01.04	Aplicações financeiras
+1.1.01.04.01	Banco do Brasil S/A.
+1.2	Não Circulante
+1.2.01	Realizável a longo prazo
+1.2.02	Investimentos
+1.2.02.02	Outros investimentos
+1.2.03	Imobilizado
+1.2.03.01	Terrenos
+1.2.03.02	Móveis e utensílios
+1.2.03.03	Instalações
+1.2.03.04	Máquinas, equipamentos e ferramentas
+1.2.03.05	Computadores e periféricos
+1.2.03.06	Veículos
+1.2.03.07	Imóveis
+1.2.04	Intangíveis
+1.2.04.01	Software
+2.	PASSIVO
+2.1	Circulante
+2.1.01	Salários a pagar
+2.1.02	Fornecedores
+2.1.03	Duplicatas a pagar
+2.1.04	Empréstimo e financiamentos
+2.1.05	Imposto a pagar / recolher
+2.1.06	Títulos a pagar
+2.1.07	Encargos Sociais a Recolher
+2.1.08	Outros Títulos a Pagar
+2.1.10	Água e Luz a pagar
+2.1.11	Provisões
+2.1.12	Férias
+2.1.13	13º Salário
+2.2	Não Circulante
+2.2.01	Exigível a Longo Prazo
+2.2.01.01	Promissórias a Pagar de Longo Prazo
+2.3	Patrimônio líquido
+2.3.01	Patrimônio em Condomínio
+2.3.01.01	Patrimônio Condominial
+2.3.02	Reservas
+2.3.03	Superávit ou Déficit
+3.	RECEITAS
+3.1	Recebimento das Parcelas
+3.1.01	Parcelas do mês
+3.1.02	Parcelas atrasadas
+3.1.03	Juros por atraso
+3.1.04	Multas por atraso
+3.1.05	Consumo de gás
+3.1.06	Parcelas extras
+3.1.07	Taxa de Mudança
+3.2	Recebimento de Aplicações
+3.2.01	Aplicações bancárias
+3.2.02	Outras receitas
+3.2.03	Caixa
+3.2.04	Poupança Fundo de Reserva
+3.2.05	Aplicações bancárias
+4.	DESPESAS
+4.1	Despesas com Pessoal
+4.1.01	Despesas com Funcionários
+4.1.01.01	Salários
+4.1.01.02	Vale Transporte
+4.1.01.03	Cesta Básica
+4.1.01.04	Férias
+4.1.01.05	Pagamento 13º Salário
+4.1.01.06	Folguista
+4.1.01.07	Assistência Médica
+4.1.01.08	Fundo Trabalhista
+4.1.01.09	Rescisões Contratuais de Trabalho
+4.1.01.10	Férias
+4.1.02	Encargos Sociais
+4.1.02.01	INSS
+4.1.02.01	INSS de Terceiros ( Autônomos )
+4.1.02.01	FGTS
+4.1.02.01	IRRF
+4.1.02.01	PIS/PASEP sobre Folha de Pagamento
+4.1.02.01	Contribuição Sindical
+4.1.02.01	Contribuição Assistencial
+4.2	Despesas Administrativas
+4.2.01	Seguros
+4.2.01.01	Contrato de Seguro
+4.2.01.02	Seguro do Prédio
+4.2.01.03	Seguro de vida em grupo
+4.2.01.04	COFINS
+4.2.02	Manutenção
+4.2.02.01	Elevadores
+4.2.02.02	Peças para elevadores
+4.2.02.03	Manutenção Elétrica
+4.2.02.04	Manutenção Hidráulica
+4.2.02.05	Manutenção de Alarmes
+4.2.02.06	Portão Eletrônico
+4.2.02.07	Elevadores
+4.2.03	Despesas de Consumo
+4.2.03.01	Água
+4.2.03.02	Energia Elétrica
+4.2.03.03	Telefones/Interfones
+4.2.03.04	Recarga de gás
+4.2.03.05	Material de limpeza
+4.2.03.06	Material elétrico/hidráulico
+4.2.03.07	Material de piscina/sauna
+4.2.03.08	Despesas com Estacionamento
+4.2.04	Despesas de Conservação
+4.2.04.01	Jardins
+4.2.04.02	Pintura
+4.2.04.03	Extintores
+4.2.04.04	Uniformes de Funcionários
+4.2.04.05	Despesas com Chaveiro
+4.2.04.06	Despesas com Vidraçaria
+4.2.05	Despesas gerais
+4.2.05.01	Administração do Condomínio
+4.2.05.02	Honorários do Síndico
+4.2.05.03	Materiais de escritório/suprimentos
+4.2.05.04	Despesas de xerox
+4.2.05.05	Editais de Convocação
+4.2.05.06	Despesas de Correio
+4.2.05.07	Consultas Jurídicas
+4.2.05.08	Seguros
+4.2.05.09	Gastos/Reparos Salão de Jogos
+4.2.05.10	Enfeites de Natal
+4.2.06	Despesas Bancárias
+4.2.06.01	Pagamento de Juros
+4.2.06.02	Tarifas sobre cobranças/boletos
+4.2.07	Despesas Bancárias
+4.2.07.01	Pagamento de Juros
+4.3	Despesas Provisionadas
+4.3.01	Inadimplência
+4.3.01.01	Provisão P/Devedores Duvidosos
+4.3.02	Outras Provisões
+4.3.01.01	Provisão para o Fundo de Reserva
+4.3.01.01	Provisão para pagamento de 13º salário
+4.3.01.01	Provisão para Fundo trabalhista
+4.4	Despesas Eventuais
+4.5	Despesas Extraordinárias

@@ -23,3 +23,57 @@ Criar o arquivo que informa a versão que iremos trabalhar na solution,global.jso
 	Services-->Agregacao<Nome da acregação>	
 
 Vamos criar as entidades ainda anemicas, do projeto
+
+aula 10
+1-Criar o  projeto infra.data dentro da pasta 4.1
+        Incluimos no arquivo do projeto .csproj o item group com todos os pacotes que precisamos conforme abaixo :
+
+ <ItemGroup>
+    <PackageReference Include="dapper" Version="1.50.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.0" />
+  </ItemGroup>
+
+
+
+	Dentro do projeto criar duas pastas: Context e Mappings
+Na pasta Context-->>1-Criamos a classe ContextEFCondominioMaster que terá referência as nossas configurações de entidades
+
+  public class ContextEFCondominioMaster : DbContext
+    {
+        public DbSet<Empresa> Empresa { get; set; }
+    }
+                    2-Criamos o arquivo appsettings.json  para passar os parâmetros de conexão.
+IMPORTANTISCIMO: Após criar o appsettings.json, clicar com o botão direito em cima deste arquivo, selecionar propriedade e 
+alterar o Copy to Output Directory para --> Copy always.
+Isso é feito para quando publicarmos ele subir junto, se não ele não sobe. 
+:
+	            3-Adiciona no pacote de Infra.data as referências dos projetos de domain e domain.shared
+	            4-Cria a classe de mapping para cada entidade;  	
+antes de criar as migration, é necessario criar um projeto web só para executar o startup.
+                    5-na camada presentation criar o projeto web dotnet core application
+                      Copiar o mesmo conteúdo do appsettings.json(do pacote Infra.Data)  para o camada de presetation
+		    6-Setar o novo projeto web com "set as startupProject  
+                    7-adiconar a referencia Infra.Data no projeto wep apenas para que o entity gere o banco de dados, embora a camadapresentation não deveria ter conhecimento da Infra.data;	
+	
+  
+Criação das migration
+			tools-->Nuget package Manager-->Package Manager Console --> 
+             default project: Selecionar o projeto .Infra.Data
+na linha de comando;
+
+
+Each package is licensed to you by its owner. NuGet is not responsible for, nor does it grant any licenses to, third-party packages. Some packages may include dependencies which are governed by additional licenses. Follow the package source (feed) URL to determine any dependencies.
+
+Package Manager Console Host Version 4.9.2.5706
+
+Type 'get-help NuGet' to see all available NuGet commands.
+
+PM> Add-Migration -context ContextEFCondominioMaster Inicio-Empresa-Condominio-Edificacao
+
+pm> PM> Update-Database -context ContextEFCondominioMaster Inicio-Empresa-Condominio-Edificacao

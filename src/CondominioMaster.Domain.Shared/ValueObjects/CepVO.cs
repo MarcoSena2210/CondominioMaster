@@ -1,4 +1,4 @@
-﻿using CondominioMaster.Infra.CrossCutting.IoC.Extensions;
+﻿using CondominioMaster.Infra.CrossCutting.Extensions;
 
 namespace CondominioMaster.Domain.Shared.ValueObjects
 {

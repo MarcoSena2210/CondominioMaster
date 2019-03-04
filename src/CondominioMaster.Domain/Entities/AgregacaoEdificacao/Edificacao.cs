@@ -1,23 +1,22 @@
-﻿using CondominioMaster.Domain.Shared.Entidades;
-using System;
+﻿using CondominioMaster.Domain.Shared.Entities;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace CondominioMaster.Domain.Entities.AgregacaoEdificacao
 {
     public class Edificacao : PessoaBase
     {
-        
 
+        public int IdCondominio { get; set; }
+        public virtual Condominio Condominio { get; set; }
 
         public ICollection<Imovel> Imoveis { get; set; }
+
         public override bool EstaConsistente()
         {
-            PrimeiroNomeDeveSerPreenchido();
-            PrimeiroNomeDeveTerUmTamanhoLimite(50);
-            UltimoNomeDeveSerPreenchido();
-            UltimoNomeDeveTerUmTamanhoLimite(50);
+            IdCondominioDeveSerPreenchido();
+
+           
             CPFouCNPJDeveSerPreenchido();
             CPFouCNPJDeveSerValido();
             EmaiDeveSerValido();
@@ -31,6 +30,12 @@ namespace CondominioMaster.Domain.Entities.AgregacaoEdificacao
             UFDeveSerValida();
             CepDeveSerValido();
             return !ListaErros.Any();
+        }
+        
+
+        private void IdCondominioDeveSerPreenchido()
+        {
+            if (IdCondominio == 0) ListaErros.Add("O campo código do condominio deve ser informado!");
         }
     }
 }
