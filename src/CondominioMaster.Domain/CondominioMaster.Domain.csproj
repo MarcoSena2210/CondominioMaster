@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <Folder Include="DTO\" />
-    <Folder Include="Interfaces\Repository\AgregacaoEdificacao\" />
     <Folder Include="Interfaces\Services\AgregacaoEdificacao\" />
     <Folder Include="Services\AgregacaoEdificacao\" />
   </ItemGroup>

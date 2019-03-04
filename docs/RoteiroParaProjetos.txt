@@ -75,5 +75,11 @@ Package Manager Console Host Version 4.9.2.5706
 Type 'get-help NuGet' to see all available NuGet commands.
 
 PM> Add-Migration -context ContextEFCondominioMaster Inicio-Empresa-Condominio-Edificacao
+PM> Update-Database -context ApplicationDbContext (para criar as tabelas de accesso criado pelo dotnet.)
 
 pm> PM> Update-Database -context ContextEFCondominioMaster Inicio-Empresa-Condominio-Edificacao
+
+Aula - Criar nossos contratos no nosso Dominio
+      em domain-->Interfaces--> criar mais duas pastas repository e services
+                                               em repository criar a pasta de agregação
+-
