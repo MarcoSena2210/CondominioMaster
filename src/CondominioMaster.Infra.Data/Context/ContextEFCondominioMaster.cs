@@ -29,8 +29,13 @@ namespace CondominioMaster.Infra.Data.Context
             modelBuilder.Entity<Imovel>(entity => {
                 entity.HasIndex(e => e.Identificador).IsUnique();
             });
+
+
+
             //modelBuilder.ApplyConfiguration(new ParametroEdificacaoMapping());
-            //modelBuilder.ApplyConfiguration(new PessoaMapping());
+            modelBuilder.Entity<Pessoa>()
+              .Ignore(p => p.ListaErros);
+            modelBuilder.ApplyConfiguration(new PessoaMapping());
             //modelBuilder.ApplyConfiguration(new PlanoContasMapping());
             //modelBuilder.ApplyConfiguration(new TransacaoFinanceiraMapping());
             //modelBuilder.ApplyConfiguration(new TransacaoItemMapping());

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CondominioMaster.Infra.Data.temp
+namespace CondominioMaster.Infra.Data.Mappings
 {
     public class PessoaMapping : IEntityTypeConfiguration<Pessoa>
     {

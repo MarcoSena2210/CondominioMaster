@@ -59,6 +59,8 @@ namespace CondominioMaster.Infra.Data.Migrations
 
                     b.Property<int>("IdEdificacao");
 
+                    b.Property<int>("IdPessoaFinanceiro");
+
                     b.Property<string>("Identificador")
                         .IsRequired()
                         .HasColumnType("varchar(100)");
@@ -74,6 +76,8 @@ namespace CondominioMaster.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("IdEdificacao");
+
+                    b.HasIndex("IdPessoaFinanceiro");
 
                     b.HasIndex("Identificador")
                         .IsUnique();
@@ -133,6 +137,31 @@ namespace CondominioMaster.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Empresa");
+                });
+
+            modelBuilder.Entity("CondominioMaster.Domain.Entities.Pessoa", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Apelido")
+                        .HasColumnType("varchar(20)");
+
+                    b.Property<DateTime>("DataIncluiRegistro")
+                        .HasColumnType("DateTime");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
+
+                    b.Property<string>("StatusRegistro")
+                        .IsRequired()
+                        .HasColumnType("varchar(10)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pessoa");
                 });
 
             modelBuilder.Entity("CondominioMaster.Domain.Entities.AgregacaoEdificacao.Edificacao", b =>
@@ -253,6 +282,11 @@ namespace CondominioMaster.Infra.Data.Migrations
                     b.HasOne("CondominioMaster.Domain.Entities.AgregacaoEdificacao.Edificacao", "Edificacao")
                         .WithMany("Imoveis")
                         .HasForeignKey("IdEdificacao")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("CondominioMaster.Domain.Entities.Pessoa", "Pessoa")
+                        .WithMany("Imoveis")
+                        .HasForeignKey("IdPessoaFinanceiro")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
@@ -472,6 +506,114 @@ namespace CondominioMaster.Infra.Data.Migrations
                                     b2.HasOne("CondominioMaster.Domain.Shared.ValueObjects.EnderecoVO")
                                         .WithOne("UF")
                                         .HasForeignKey("CondominioMaster.Domain.Shared.ValueObjects.UfVO", "EnderecoVOEmpresaId")
+                                        .OnDelete(DeleteBehavior.Cascade);
+                                });
+                        });
+                });
+
+            modelBuilder.Entity("CondominioMaster.Domain.Entities.Pessoa", b =>
+                {
+                    b.OwnsOne("CondominioMaster.Domain.Shared.ValueObjects.CpfCnpjVO", "CPFCNPJ", b1 =>
+                        {
+                            b1.Property<int?>("PessoaId")
+                                .ValueGeneratedOnAdd()
+                                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                            b1.Property<string>("Numero")
+                                .IsRequired()
+                                .HasColumnName("CpfCnpj")
+                                .HasColumnType("varchar(14)");
+
+                            b1.HasIndex("Numero")
+                                .IsUnique();
+
+                            b1.ToTable("Pessoa");
+
+                            b1.HasOne("CondominioMaster.Domain.Entities.Pessoa")
+                                .WithOne("CPFCNPJ")
+                                .HasForeignKey("CondominioMaster.Domain.Shared.ValueObjects.CpfCnpjVO", "PessoaId")
+                                .OnDelete(DeleteBehavior.Cascade);
+                        });
+
+                    b.OwnsOne("CondominioMaster.Domain.Shared.ValueObjects.EmailVO", "Email", b1 =>
+                        {
+                            b1.Property<int?>("PessoaId")
+                                .ValueGeneratedOnAdd()
+                                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                            b1.Property<string>("Endereco")
+                                .IsRequired()
+                                .HasColumnName("Email")
+                                .HasColumnType("varchar(100)");
+
+                            b1.ToTable("Pessoa");
+
+                            b1.HasOne("CondominioMaster.Domain.Entities.Pessoa")
+                                .WithOne("Email")
+                                .HasForeignKey("CondominioMaster.Domain.Shared.ValueObjects.EmailVO", "PessoaId")
+                                .OnDelete(DeleteBehavior.Cascade);
+                        });
+
+                    b.OwnsOne("CondominioMaster.Domain.Shared.ValueObjects.EnderecoVO", "Endereco", b1 =>
+                        {
+                            b1.Property<int?>("PessoaId")
+                                .ValueGeneratedOnAdd()
+                                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                            b1.Property<string>("Bairro")
+                                .HasColumnName("Bairro")
+                                .HasColumnType("varchar(30)");
+
+                            b1.Property<string>("Cidade")
+                                .IsRequired()
+                                .HasColumnName("Cidade")
+                                .HasColumnType("varchar(30)");
+
+                            b1.Property<string>("Logradouro")
+                                .IsRequired()
+                                .HasColumnName("Endereco")
+                                .HasColumnType("varchar(100)");
+
+                            b1.ToTable("Pessoa");
+
+                            b1.HasOne("CondominioMaster.Domain.Entities.Pessoa")
+                                .WithOne("Endereco")
+                                .HasForeignKey("CondominioMaster.Domain.Shared.ValueObjects.EnderecoVO", "PessoaId")
+                                .OnDelete(DeleteBehavior.Cascade);
+
+                            b1.OwnsOne("CondominioMaster.Domain.Shared.ValueObjects.CepVO", "CEP", b2 =>
+                                {
+                                    b2.Property<int?>("EnderecoVOPessoaId")
+                                        .ValueGeneratedOnAdd()
+                                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                                    b2.Property<string>("Codigo")
+                                        .HasColumnName("CEP")
+                                        .HasColumnType("varchar(8)");
+
+                                    b2.ToTable("Pessoa");
+
+                                    b2.HasOne("CondominioMaster.Domain.Shared.ValueObjects.EnderecoVO")
+                                        .WithOne("CEP")
+                                        .HasForeignKey("CondominioMaster.Domain.Shared.ValueObjects.CepVO", "EnderecoVOPessoaId")
+                                        .OnDelete(DeleteBehavior.Cascade);
+                                });
+
+                            b1.OwnsOne("CondominioMaster.Domain.Shared.ValueObjects.UfVO", "UF", b2 =>
+                                {
+                                    b2.Property<int?>("EnderecoVOPessoaId")
+                                        .ValueGeneratedOnAdd()
+                                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                                    b2.Property<string>("UF")
+                                        .HasColumnName("UF")
+                                        .HasColumnType("varchar(2)");
+
+                                    b2.ToTable("Pessoa");
+
+                                    b2.HasOne("CondominioMaster.Domain.Shared.ValueObjects.EnderecoVO")
+                                        .WithOne("UF")
+                                        .HasForeignKey("CondominioMaster.Domain.Shared.ValueObjects.UfVO", "EnderecoVOPessoaId")
                                         .OnDelete(DeleteBehavior.Cascade);
                                 });
                         });
