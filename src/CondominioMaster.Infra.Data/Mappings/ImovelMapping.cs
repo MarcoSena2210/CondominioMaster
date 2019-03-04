@@ -27,6 +27,8 @@ namespace CondominioMaster.Infra.Data.Mappings
                 .HasColumnType("varchar(100)")
                 .IsRequired();
 
+            builder.HasIndex(e => e.Identificador).IsUnique();  //Cria um indice unico
+
             builder.HasOne(c => c.Edificacao)
                  .WithMany(e => e.Imoveis)
                  .HasForeignKey(c => c.IdEdificacao);
