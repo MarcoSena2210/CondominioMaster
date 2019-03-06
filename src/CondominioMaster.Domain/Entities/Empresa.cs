@@ -6,7 +6,7 @@ namespace CondominioMaster.Domain.Entities
 {
     public class Empresa : PessoaBase
     {
-        public ICollection<Condominio> Condominios { get; set; }
+        public ICollection<Condominio> Condominio { get; set; }
 
         public override bool EstaConsistente()
         {

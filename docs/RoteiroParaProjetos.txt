@@ -79,7 +79,12 @@ PM> Update-Database -context ApplicationDbContext (para criar as tabelas de acce
 
 pm> PM> Update-Database -context ContextEFCondominioMaster Inicio-Empresa-Condominio-Edificacao
 
-Aula - Criar nossos contratos no nosso Dominio
+Aula 12- Criar nossos contratos no nosso Dominio
       em domain-->Interfaces--> criar mais duas pastas repository e services
                                                em repository criar a pasta de agregação
--
+
+Iniciado a criação (Contrato)das interfaces de Empresa,Edificacao,Condominio,Imovel
+
+-aula13- A implementação de interfaces repositorios devem ser na camada de infra.data na pasta repository.
+-aula15- Fazendo os override dos metodos de consulta nos repository e reescrevendo as consultas com Dapper
+para melhorar a performace. 

@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\" />
     <Folder Include="Interfaces\Services\AgregacaoEdificacao\" />
     <Folder Include="Services\AgregacaoEdificacao\" />
   </ItemGroup>

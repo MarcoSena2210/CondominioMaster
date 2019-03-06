@@ -14,8 +14,6 @@ namespace CondominioMaster.Domain.Interfaces.Repository
         IEnumerable<TEntidade> ObterTodos();
 
         IEnumerable<TEntidade> Buscar(Expression<Func<TEntidade, bool>> predicate );
-        int SaveChanges();
-
         bool EstaAtivo(int id);
     }
 }

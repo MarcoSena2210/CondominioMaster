@@ -81,11 +81,9 @@ namespace CondominioMaster.Infra.Data.Mappings
             });
 
             builder.HasOne(p => p.Empresa)
-           .WithMany(f => f.Condominios)
+           .WithMany(f => f.Condominio)
            .HasForeignKey(p => p.IdEmpresa);
-
-
-
+                       
             builder.Ignore(c => c.ListaErros);
             builder.ToTable("Condominio");
 

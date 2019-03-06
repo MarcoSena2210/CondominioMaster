@@ -30,7 +30,7 @@ namespace CondominioMaster.Infra.Data.Mappings
             builder.HasIndex(e => e.Identificador).IsUnique();  //Cria um indice unico
 
             builder.HasOne(c => c.Edificacao)
-                 .WithMany(e => e.Imoveis)
+                 .WithMany(e => e.Imovel)
                  .HasForeignKey(c => c.IdEdificacao);
 
             builder.HasOne(e => e.Pessoa)

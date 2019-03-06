@@ -10,7 +10,7 @@ namespace CondominioMaster.Domain.Entities.AgregacaoEdificacao
         public int IdCondominio { get; set; }
         public virtual Condominio Condominio { get; set; }
 
-        public ICollection<Imovel> Imoveis { get; set; }
+        public ICollection<Imovel> Imovel { get; set; }
 
         public override bool EstaConsistente()
         {

@@ -6,6 +6,6 @@ namespace CondominioMaster.Domain.Interfaces.Repository
     {
         Condominio ObterPorCpfCnpj(string cpfcnpj);
         Condominio ObterPorApelido(string apelido);
-        Condominio ObterPorNome(string Nome);
+        Condominio ObterPorNome(string nome);
     }
 }

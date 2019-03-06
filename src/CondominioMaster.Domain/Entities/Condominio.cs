@@ -10,7 +10,7 @@ namespace CondominioMaster.Domain.Entities
         public int IdEmpresa { get; set; }
         public virtual Empresa Empresa { get; set; }
 
-        public ICollection<Edificacao> Edificacoes { get; set; }
+        public ICollection<Edificacao> Edificacao { get; set; }
         public override bool EstaConsistente()
         {
            
