@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Infra.Cros
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Infra.CrossCutting.IoC", "src\CondominioMaster.Infra.CrossCutting.IoC\CondominioMaster.Infra.CrossCutting.IoC.csproj", "{CE407A54-89EB-4746-BDCE-A50B6649F61F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioMaster.Site", "src\CondominioMaster.Site\CondominioMaster.Site.csproj", "{AFDEEAE6-BCD0-4F05-AEDF-D4213607829E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Site", "src\CondominioMaster.Site\CondominioMaster.Site.csproj", "{AFDEEAE6-BCD0-4F05-AEDF-D4213607829E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

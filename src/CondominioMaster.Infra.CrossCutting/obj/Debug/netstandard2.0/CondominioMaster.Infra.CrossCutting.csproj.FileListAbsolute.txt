@@ -6,3 +6,4 @@ F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Deb
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.AssemblyInfo.cs
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.pdb
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.csprojAssemblyReference.cache

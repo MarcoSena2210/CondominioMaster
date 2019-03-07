@@ -88,3 +88,5 @@ Iniciado a criação (Contrato)das interfaces de Empresa,Edificacao,Condominio,Imo
 -aula13- A implementação de interfaces repositorios devem ser na camada de infra.data na pasta repository.
 -aula15- Fazendo os override dos metodos de consulta nos repository e reescrevendo as consultas com Dapper
 para melhorar a performace. 
+
+-aula17 - criação de IServiceEmpresa e IserviceCondominio e seus respectivos Serviços 
