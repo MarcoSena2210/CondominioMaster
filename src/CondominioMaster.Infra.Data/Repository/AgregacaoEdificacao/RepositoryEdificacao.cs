@@ -106,6 +106,45 @@ namespace CondominioMaster.Infra.Data.Repository.AgregacaoEdificacao
             return Db.Imovel.Where(i => i.IdEdificacao == idEdificacao).OrderBy(i => i.Edificacao.Nome);
         }
 
+        public Edificacao ObterPorApelido(string apelido)
+        {
+            /*   através do Entity
+             *   return Db.Empresa.AsNoTracking().FirstOrDefault(e => e.Apelido == apelido);
+             *   */
+
+            /* Usando o Dapper, melhor performace */
+            StringBuilder query = new StringBuilder();
+            query.Append(@"SELECT * FROM edificacao WHERE apelido = @uAPELIDO");
+            var retorno = Db.Database.GetDbConnection().Query<Edificacao>(query.ToString(), new { uAPELIDO = apelido }).FirstOrDefault();
+            return retorno;
+
+        }
+
+        public Edificacao ObterPorCpfCnpj(string cpfcnpj)
+        {
+            //  através do Entity
+            //   return Db.Empresa.AsNoTracking().FirstOrDefault(e => e.CPFCNPJ.Numero == cpfcnpj);
+            /* Usando o Dapper, melhor performace */
+            StringBuilder query = new StringBuilder();
+            query.Append(@"SELECT * FROM edificacao WHERE CpfCnpj = @uCPFCNPJ");
+            var retorno = Db.Database.GetDbConnection().Query<Edificacao>(query.ToString(), new { uCPFCNPJ = cpfcnpj }).FirstOrDefault();
+            return retorno;
+
+        }
+
+        public Edificacao ObterPorNome(string nome)
+        {
+            //   return Db.Empresa.AsNoTracking().FirstOrDefault(e => e.Nome == nome); //usando o entity
+            /* Usando o Dapper, melhor performace para consulta */
+            StringBuilder query = new StringBuilder();
+            query.Append(@"SELECT * FROM empresa WHERE Nome = @uNOME");
+            var retorno = Db.Database.GetDbConnection().Query<Edificacao>(query.ToString(), new { uNOME = nome }).FirstOrDefault();
+            return retorno;
+
+        }
+
+
+
 
         //public Imovel ObterImovelDaEdificacaoPorId(int id)
         //{

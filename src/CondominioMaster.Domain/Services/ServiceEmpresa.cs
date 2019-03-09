@@ -4,6 +4,9 @@ using CondominioMaster.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 
+/// <summary>
+/// /    Vão ficar os nossas regras principais
+/// </summary>
 namespace CondominioMaster.Domain.Services
 {
     public class ServiceEmpresa : IServiceEmpresa

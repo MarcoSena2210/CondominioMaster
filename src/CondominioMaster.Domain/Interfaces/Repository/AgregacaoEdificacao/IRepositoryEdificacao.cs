@@ -10,6 +10,12 @@ namespace CondominioMaster.Domain.Interfaces.Repository.AgregacaoEdificacao
         void AtulizarImovelEdificacao(Imovel imovel);
         void RemoverImovelEdificacao(Imovel imovel);
 
+        Edificacao ObterPorCpfCnpj(string cpfcnpj);
+        Edificacao ObterPorApelido(string apelido);
+        Edificacao ObterPorNome(string nome);
+
+
+
         Imovel ObterImovelEdificacaoPorId(int id);
         IEnumerable<Imovel> ObterImovelEdificacao(int idEdificacao);
       

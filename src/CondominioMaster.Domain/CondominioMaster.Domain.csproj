@@ -8,9 +8,4 @@
     <ProjectReference Include="..\CondominioMaster.Domain.Shared\CondominioMaster.Domain.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\Services\AgregacaoEdificacao\" />
-    <Folder Include="Services\AgregacaoEdificacao\" />
-  </ItemGroup>
-
 </Project>
