@@ -8,9 +8,11 @@ namespace CondominioMaster.Domain.Entities.AgregacaoEdificacao
                
         public string NumeroPorta { get; set; } //4a ou 401
         public string Identificador { get; set; } // id.condomio + Id.Edificacao + Sigla + Numero do Apartamento 
+        public string SiglaImovel { get; set; } //AP,LO,CA,TE,GA,
 
-        // public CpfCnpjVO CpfOuCnpjResponsavel  { get; set; }
-        public int IdEdificacao { get; set; }
+
+          // public CpfCnpjVO CpfOuCnpjResponsavel  { get; set; }
+          public int IdEdificacao { get; set; }
         public virtual Edificacao Edificacao { get; set; }
 
         public int  IdPessoaFinanceiro  { get; set; }  //Pessoa Responsavel Financeiro

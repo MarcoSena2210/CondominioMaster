@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Infra.Cros
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Site", "src\CondominioMaster.Site\CondominioMaster.Site.csproj", "{AFDEEAE6-BCD0-4F05-AEDF-D4213607829E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{65A55B6E-0CBB-4881-9773-750289C76E5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{AFDEEAE6-BCD0-4F05-AEDF-D4213607829E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFDEEAE6-BCD0-4F05-AEDF-D4213607829E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFDEEAE6-BCD0-4F05-AEDF-D4213607829E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A55B6E-0CBB-4881-9773-750289C76E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A55B6E-0CBB-4881-9773-750289C76E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A55B6E-0CBB-4881-9773-750289C76E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A55B6E-0CBB-4881-9773-750289C76E5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{62769D83-263A-407D-937E-71F7E2A42498} = {208FC24A-DF91-47B7-9ED2-995B9201762C}
 		{CE407A54-89EB-4746-BDCE-A50B6649F61F} = {208FC24A-DF91-47B7-9ED2-995B9201762C}
 		{AFDEEAE6-BCD0-4F05-AEDF-D4213607829E} = {CAF99BB9-8E1C-4987-9107-A072E709A2E8}
+		{65A55B6E-0CBB-4881-9773-750289C76E5B} = {0A14A20F-993E-4284-8BE2-8AD50FFB38E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDB3C190-DDF9-4E38-B869-5F934F6D0E47}

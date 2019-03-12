@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace CondominioMaster.Domain.Interfaces.Repository.AgregacaoEdificacao
 {
-    public interface IRepositoryEdificacao : IRepository<Edificacao>
+    public interface RepositoryEdificacao : IRepository<Edificacao>
     {
         void AdicionarImovelEdificacao(Imovel imovel);
         void AtulizarImovelEdificacao(Imovel imovel);
