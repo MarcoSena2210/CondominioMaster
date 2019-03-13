@@ -9,7 +9,7 @@ namespace CondominioMaster.Domain.Interfaces.Services.AgregacaoEdificacao
         Imovel Adicionar(Imovel imovel);
         Imovel Atualizar(Imovel imovel);
         Imovel Remover(Imovel imovel);
-        IEnumerable<Imovel> ObterImoveisPorEdificacao(int idEdificacao);
+        IEnumerable<Imovel> ObterImoveisPorEdificacaoId(int idEdificacao);
         Imovel ObterImovelPorId(int id);
         Imovel ObterImovelPorIdentificador(string Identificador);
      

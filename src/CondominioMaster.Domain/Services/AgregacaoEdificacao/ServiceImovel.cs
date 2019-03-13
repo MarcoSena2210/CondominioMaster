@@ -131,9 +131,9 @@ namespace CondominioMaster.Domain.Services.AgregacaoEdificacao
 
 
           #region Consultas
-          public IEnumerable<Imovel> ObterImoveisPorEdificacao(int idEdificacao)
+          public IEnumerable<Imovel> ObterImoveisPorEdificacaoId(int idEdificacao)
           {
-               return repoImovel.ObterImoveisPorEdificacao(idEdificacao);
+               return repoImovel.ObterImoveisPorEdificacaoId(idEdificacao);
           }
 
           public Imovel ObterImovelPorId(int id)

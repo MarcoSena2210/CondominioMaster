@@ -9,12 +9,17 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 
+/// <summary>
+///       Vamos usar o ADO, para fazermos os CRUD e algumas consultas
+///        os Values Objects não é simples para trabalhar o crud e a performace 
+/// </summary>
+
 namespace CondominioMaster.Infra.Data.Repository
 {
     public class Repository<TEntidade> : IRepository<TEntidade> where TEntidade : EntidadeBase
     {
         protected ContextEFCondominioMaster Db;    //injeta a dependência
-        protected DbSet<TEntidade> DbSet;                 //injeta a dependência
+        protected DbSet<TEntidade> DbSet;                //injeta a dependência
 
         public Repository(ContextEFCondominioMaster context)
         {
