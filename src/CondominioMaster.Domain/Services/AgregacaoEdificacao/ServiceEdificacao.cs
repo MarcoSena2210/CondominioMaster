@@ -11,13 +11,13 @@ namespace CondominioMaster.Domain.Services.AgregacaoEdificacao
      {
 
           #region Injeção de dependências
-          private readonly RepositoryEdificacao repoEdificacao;
+          private readonly IRepositoryEdificacao repoEdificacao;
           private readonly IRepositoryImovel repoImovel;
           #endregion Injeção de dependências
 
 
           #region Construtor 
-          public ServiceEdificacao(RepositoryEdificacao _repoEdificacao, IRepositoryImovel _repoImovel)
+          public ServiceEdificacao(IRepositoryEdificacao _repoEdificacao, IRepositoryImovel _repoImovel)
           {
                repoEdificacao = _repoEdificacao;
                repoImovel = _repoImovel;

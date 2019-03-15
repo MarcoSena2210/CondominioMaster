@@ -14,12 +14,12 @@ namespace CondominioMaster.Domain.Services.AgregacaoEdificacao
           private const string ponto = ".";
           #region Injeção de dependências
           private readonly IRepositoryImovel repoImovel;
-          private readonly RepositoryEdificacao repoEdificacao;
+          private readonly IRepositoryEdificacao repoEdificacao;
           #endregion Injeção de dependências
 
 
           #region Construtor 
-          public ServiceImovel(IRepositoryImovel _repoImovel, RepositoryEdificacao _repoEdificacao)
+          public ServiceImovel(IRepositoryImovel _repoImovel, IRepositoryEdificacao _repoEdificacao)
           {
                repoImovel = _repoImovel;
                repoEdificacao = _repoEdificacao;

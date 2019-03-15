@@ -30,7 +30,7 @@ namespace UnitTestProject1
           public void TestMethod1()
           {
                //Arrange
-               string resultadoEsperado = "1.528.AP515A";
+              // string resultadoEsperado = "1.528.AP515A";
 
                //Act
           //     string resultadoAtual =

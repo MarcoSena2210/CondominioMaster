@@ -13,12 +13,12 @@ namespace CondominioMaster.Domain.Services
 
           #region Injeção de dependências
           private readonly IRepositoryCondominio repoCondominio;
-          private readonly RepositoryEdificacao repoEdificacao;
+          private readonly IRepositoryEdificacao repoEdificacao;
           #endregion Injeção de dependências
 
 
           #region Construtor 
-          public ServiceCondominio(IRepositoryCondominio _repoCondominio, RepositoryEdificacao _repoEdificacao)
+          public ServiceCondominio(IRepositoryCondominio _repoCondominio, IRepositoryEdificacao _repoEdificacao)
           {
                repoCondominio = _repoCondominio;
                repoEdificacao = _repoEdificacao;
