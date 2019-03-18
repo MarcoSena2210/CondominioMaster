@@ -1,3 +1,6 @@
+
+https://freshdesignweb.com/free-bootstrap-admin-templates/
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 1-Criar a solução
 1.1-Crias as pastas virtuais do nosso DDD
     0-Presentaion
@@ -90,3 +93,6 @@ Iniciado a criação (Contrato)das interfaces de Empresa,Edificacao,Condominio,Imo
 para melhorar a performace. 
 
 -aula17 - criação de IServiceEmpresa e IserviceCondominio e seus respectivos Serviços 
+
+-aula26- Melhoria na camapada de Apresentação:
+	Alterando o arquivo Index gerado pelo scafold .Net retirando a parte de baixo e substituindo  

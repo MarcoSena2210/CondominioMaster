@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\CondominioMaster.UI.Site\\Views\\Shared",
+    "\\src\\CondominioMaster.UI.Site\\wwwroot\\AdminLTE",
+    "\\src\\CondominioMaster.UI.Site\\wwwroot\\AdminLTE\\dist",
+    "\\src\\CondominioMaster.UI.Site\\wwwroot\\AdminLTE\\dist\\css",
+    "\\src\\CondominioMaster.UI.Site\\wwwroot\\AdminLTE\\dist\\css\\skins"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\CondominioMaster.UI.Site",
   "PreviewInSolutionExplorer": false
 }

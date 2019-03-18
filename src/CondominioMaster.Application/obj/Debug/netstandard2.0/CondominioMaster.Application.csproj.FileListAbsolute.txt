@@ -1,14 +1,7 @@
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\appsettings.json
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Application.deps.json
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Application.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Application.pdb
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.csprojAssemblyReference.cache
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.csproj.CoreCompileInputs.cache
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.AssemblyInfoInputs.cache
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.AssemblyInfo.cs
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.csproj.CopyComplete
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.dll
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.pdb
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\appsettings.json
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Domain.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Domain.Shared.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.dll
@@ -19,3 +12,10 @@ F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\nets
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.pdb
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Infra.Data.pdb
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.pdb
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.csprojAssemblyReference.cache
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.csproj.CoreCompileInputs.cache
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.AssemblyInfoInputs.cache
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.AssemblyInfo.cs
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.csproj.CopyComplete
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.dll
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Application\obj\Debug\netstandard2.0\CondominioMaster.Application.pdb

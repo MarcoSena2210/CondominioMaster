@@ -4,10 +4,12 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CondominioMaster.Infra.Data.Mappings
 {
-   public class EmpresaMapping : IEntityTypeConfiguration<Empresa>
-    {
+   //public class EmpresaMapping : IEntityTypeConfiguration<Empresa>
 
-        public void Configure(EntityTypeBuilder<Empresa> builder)
+     public class EmpresaMapping : IEntityTypeConfiguration<Empresa>
+     {
+
+        public   void Configure(EntityTypeBuilder<Empresa> builder)
         {
             builder.HasKey(e => e.Id);
 
@@ -80,8 +82,8 @@ namespace CondominioMaster.Infra.Data.Mappings
                 cep.Ignore(e => e.Cidade);
                 cep.Ignore(e => e.UF);
             });
-            
-            builder.Ignore(e => e.ListaErros);
+              
+               builder.Ignore(e => e.ListaErros);
 
             builder.ToTable("Empresa");
 

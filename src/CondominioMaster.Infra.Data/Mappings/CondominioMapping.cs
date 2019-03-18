@@ -82,6 +82,7 @@ namespace CondominioMaster.Infra.Data.Mappings
 
             builder.HasOne(p => p.Empresa)
            .WithMany(f => f.Condominio)
+
            .HasForeignKey(p => p.IdEmpresa);
                        
             builder.Ignore(c => c.ListaErros);

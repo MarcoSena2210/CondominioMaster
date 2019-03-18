@@ -1,0 +1,14 @@
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\bin\Debug\netcoreapp2.1\CondominioMaster.UI.Site.deps.json
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\bin\Debug\netcoreapp2.1\CondominioMaster.UI.Site.runtimeconfig.json
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\bin\Debug\netcoreapp2.1\CondominioMaster.UI.Site.runtimeconfig.dev.json
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\bin\Debug\netcoreapp2.1\CondominioMaster.UI.Site.dll
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\bin\Debug\netcoreapp2.1\CondominioMaster.UI.Site.pdb
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.csprojAssemblyReference.cache
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.csproj.CoreCompileInputs.cache
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.RazorAssemblyInfo.cache
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.RazorAssemblyInfo.cs
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.AssemblyInfoInputs.cache
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.AssemblyInfo.cs
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.RazorTargetAssemblyInfo.cache
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.dll
+F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.UI.Site\obj\Debug\netcoreapp2.1\CondominioMaster.UI.Site.pdb

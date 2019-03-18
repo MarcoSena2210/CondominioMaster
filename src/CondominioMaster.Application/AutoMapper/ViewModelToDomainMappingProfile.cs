@@ -22,7 +22,7 @@ namespace Projeto.Curso.Core.Application.Pedido.AutoMapper
                          Id = src.Id,
                          Apelido = src.Apelido,
                          Nome = src.Nome,
-                         CPFCNPJ = new CpfCnpjVO
+                         CPFCNPJ = new CpfCnpjVO //Obrigatotrio instanciar pois é um VO
                          {
                              Numero = src.CpfCnpj.SomenteNumeros()
                          },

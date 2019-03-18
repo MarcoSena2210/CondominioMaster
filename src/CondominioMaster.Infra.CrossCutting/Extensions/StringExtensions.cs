@@ -45,7 +45,7 @@ namespace CondominioMaster.Infra.CrossCutting.Extensions
                 }
                 if (strIn.Length == 14)
                 {
-                    return strIn.Substring(0, 2) + "." + strIn.Substring(2, 3) + "." + strIn.Substring(5, 3) + "/" + strIn.Substring(8, 4) + "-" + strIn.Substring(12, 2);
+                    return strIn.Substring(0, 2) + "." + strIn.Substring(2, 3) + "." + strIn.Substring(5, 3) + "/" + strIn.Substring(7, 4) + "-" + strIn.Substring(12, 2);
                 }
             }
             return "";

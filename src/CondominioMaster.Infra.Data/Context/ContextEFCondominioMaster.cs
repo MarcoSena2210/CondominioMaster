@@ -19,8 +19,9 @@ namespace CondominioMaster.Infra.Data.Context
         //public DbSet<TransacaoFinanceira> TransacaoFinanceira { get; set; }
         //public DbSet<TransacaoItem> TransacaoItem { get; set; }
 
-       
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //.IsRequired().OnDelete(Microsoft.Data.Entity.Metadata.DeleteBehavior.Restrict);
+
+          protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new EmpresaMapping());
             modelBuilder.ApplyConfiguration(new CondominioMapping());
