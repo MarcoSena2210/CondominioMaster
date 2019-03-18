@@ -1,7 +1,6 @@
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.deps.json
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting.IoC\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.pdb
-F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting.IoC\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.IoC.AssemblyInfo.cs
