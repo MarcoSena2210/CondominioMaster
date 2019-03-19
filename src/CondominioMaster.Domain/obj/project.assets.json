@@ -30,8 +30,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CondominioMaster.Infra.CrossCutting": "1.0.0",
-          "CondominioMaster.Infra.CrossCutting.IoC": "1.0.0"
+          "CondominioMaster.Infra.CrossCutting": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CondominioMaster.Domain.Shared.dll": {}
@@ -48,16 +47,6 @@
         },
         "runtime": {
           "bin/placeholder/CondominioMaster.Infra.CrossCutting.dll": {}
-        }
-      },
-      "CondominioMaster.Infra.CrossCutting.IoC/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/CondominioMaster.Infra.CrossCutting.IoC.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CondominioMaster.Infra.CrossCutting.IoC.dll": {}
         }
       }
     }
@@ -214,11 +203,6 @@
       "type": "project",
       "path": "../CondominioMaster.Infra.CrossCutting/CondominioMaster.Infra.CrossCutting.csproj",
       "msbuildProject": "../CondominioMaster.Infra.CrossCutting/CondominioMaster.Infra.CrossCutting.csproj"
-    },
-    "CondominioMaster.Infra.CrossCutting.IoC/1.0.0": {
-      "type": "project",
-      "path": "../CondominioMaster.Infra.CrossCutting.IoC/CondominioMaster.Infra.CrossCutting.IoC.csproj",
-      "msbuildProject": "../CondominioMaster.Infra.CrossCutting.IoC/CondominioMaster.Infra.CrossCutting.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {

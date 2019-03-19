@@ -5830,7 +5830,6 @@
         "dependencies": {
           "CondominioMaster.Domain": "1.0.0",
           "CondominioMaster.Domain.Shared": "1.0.0",
-          "CondominioMaster.Infra.CrossCutting": "1.0.0",
           "CondominioMaster.Infra.Data": "1.0.0",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.0.1",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.0.1",
@@ -5841,6 +5840,19 @@
         },
         "runtime": {
           "bin/placeholder/CondominioMaster.Application.dll": {}
+        }
+      },
+      "CondominioMaster.Application.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CondominioMaster.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CondominioMaster.Application.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CondominioMaster.Application.Shared.dll": {}
         }
       },
       "CondominioMaster.Domain/1.0.0": {
@@ -5860,8 +5872,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CondominioMaster.Infra.CrossCutting": "1.0.0",
-          "CondominioMaster.Infra.CrossCutting.IoC": "1.0.0"
+          "CondominioMaster.Infra.CrossCutting": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CondominioMaster.Domain.Shared.dll": {}
@@ -5883,6 +5894,14 @@
       "CondominioMaster.Infra.CrossCutting.IoC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CondominioMaster.Application": "1.0.0",
+          "CondominioMaster.Application.Shared": "1.0.0",
+          "CondominioMaster.Domain": "1.0.0",
+          "CondominioMaster.Domain.Shared": "1.0.0",
+          "CondominioMaster.Infra.Data": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
+        },
         "compile": {
           "bin/placeholder/CondominioMaster.Infra.CrossCutting.IoC.dll": {}
         },
@@ -15266,6 +15285,11 @@
       "path": "../CondominioMaster.Application/CondominioMaster.Application.csproj",
       "msbuildProject": "../CondominioMaster.Application/CondominioMaster.Application.csproj"
     },
+    "CondominioMaster.Application.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CondominioMaster.Application.Shared/CondominioMaster.Application.Shared.csproj",
+      "msbuildProject": "../CondominioMaster.Application.Shared/CondominioMaster.Application.Shared.csproj"
+    },
     "CondominioMaster.Domain/1.0.0": {
       "type": "project",
       "path": "../CondominioMaster.Domain/CondominioMaster.Domain.csproj",
@@ -15296,7 +15320,7 @@
     ".NETCoreApp,Version=v2.1": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 6.0.0",
       "CondominioMaster.Application >= 1.0.0",
-      "CondominioMaster.Infra.CrossCutting >= 1.0.0",
+      "CondominioMaster.Infra.CrossCutting.IoC >= 1.0.0",
       "CondominioMaster.Infra.Data >= 1.0.0",
       "CoreCompat.System.Drawing >= 1.0.0-beta006",
       "Microsoft.AspNetCore.All >= 2.1.1",
@@ -15339,8 +15363,8 @@
             "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Application\\CondominioMaster.Application.csproj": {
               "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Application\\CondominioMaster.Application.csproj"
             },
-            "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.CrossCutting\\CondominioMaster.Infra.CrossCutting.csproj": {
-              "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.CrossCutting\\CondominioMaster.Infra.CrossCutting.csproj"
+            "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.CrossCutting.IoC\\CondominioMaster.Infra.CrossCutting.IoC.csproj": {
+              "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.CrossCutting.IoC\\CondominioMaster.Infra.CrossCutting.IoC.csproj"
             },
             "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.Data\\CondominioMaster.Infra.Data.csproj": {
               "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.Data\\CondominioMaster.Infra.Data.csproj"

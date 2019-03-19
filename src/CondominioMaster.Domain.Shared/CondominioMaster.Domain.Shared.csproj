@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CondominioMaster.Infra.CrossCutting.IoC\CondominioMaster.Infra.CrossCutting.IoC.csproj" />
     <ProjectReference Include="..\CondominioMaster.Infra.CrossCutting\CondominioMaster.Infra.CrossCutting.csproj" />
   </ItemGroup>
 

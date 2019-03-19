@@ -11,7 +11,6 @@
         "dependencies": {
           "CondominioMaster.Domain": "1.0.0",
           "CondominioMaster.Domain.Shared": "1.0.0",
-          "CondominioMaster.Infra.CrossCutting": "1.0.0",
           "CondominioMaster.Infra.Data": "1.0.0",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.0.1",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.0.1",
@@ -1273,8 +1272,7 @@
       },
       "CondominioMaster.Domain.Shared/1.0.0": {
         "dependencies": {
-          "CondominioMaster.Infra.CrossCutting": "1.0.0",
-          "CondominioMaster.Infra.CrossCutting.IoC": "1.0.0"
+          "CondominioMaster.Infra.CrossCutting": "1.0.0"
         },
         "runtime": {
           "CondominioMaster.Domain.Shared.dll": {}
@@ -1283,11 +1281,6 @@
       "CondominioMaster.Infra.CrossCutting/1.0.0": {
         "runtime": {
           "CondominioMaster.Infra.CrossCutting.dll": {}
-        }
-      },
-      "CondominioMaster.Infra.CrossCutting.IoC/1.0.0": {
-        "runtime": {
-          "CondominioMaster.Infra.CrossCutting.IoC.dll": {}
         }
       },
       "CondominioMaster.Infra.Data/1.0.0": {
@@ -2131,11 +2124,6 @@
       "sha512": ""
     },
     "CondominioMaster.Infra.CrossCutting/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CondominioMaster.Infra.CrossCutting.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

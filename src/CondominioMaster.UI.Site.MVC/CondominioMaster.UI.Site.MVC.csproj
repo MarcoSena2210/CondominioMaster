@@ -18,7 +18,7 @@
 
      <ItemGroup>
        <ProjectReference Include="..\CondominioMaster.Application\CondominioMaster.Application.csproj" />
-       <ProjectReference Include="..\CondominioMaster.Infra.CrossCutting\CondominioMaster.Infra.CrossCutting.csproj" />
+       <ProjectReference Include="..\CondominioMaster.Infra.CrossCutting.IoC\CondominioMaster.Infra.CrossCutting.IoC.csproj" />
        <ProjectReference Include="..\CondominioMaster.Infra.Data\CondominioMaster.Infra.Data.csproj" />
      </ItemGroup>
 
@@ -27,6 +27,12 @@
     <Content Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Areas\Financeiro\Controllers\" />
+    <Folder Include="Areas\Financeiro\Views\" />
   </ItemGroup>
 
 </Project>

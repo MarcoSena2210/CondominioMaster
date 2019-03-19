@@ -1535,8 +1535,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CondominioMaster.Infra.CrossCutting": "1.0.0",
-          "CondominioMaster.Infra.CrossCutting.IoC": "1.0.0"
+          "CondominioMaster.Infra.CrossCutting": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CondominioMaster.Domain.Shared.dll": {}
@@ -1553,16 +1552,6 @@
         },
         "runtime": {
           "bin/placeholder/CondominioMaster.Infra.CrossCutting.dll": {}
-        }
-      },
-      "CondominioMaster.Infra.CrossCutting.IoC/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/CondominioMaster.Infra.CrossCutting.IoC.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CondominioMaster.Infra.CrossCutting.IoC.dll": {}
         }
       },
       "CondominioMaster.Infra.Data/1.0.0": {
@@ -5082,11 +5071,6 @@
       "path": "../CondominioMaster.Infra.CrossCutting/CondominioMaster.Infra.CrossCutting.csproj",
       "msbuildProject": "../CondominioMaster.Infra.CrossCutting/CondominioMaster.Infra.CrossCutting.csproj"
     },
-    "CondominioMaster.Infra.CrossCutting.IoC/1.0.0": {
-      "type": "project",
-      "path": "../CondominioMaster.Infra.CrossCutting.IoC/CondominioMaster.Infra.CrossCutting.IoC.csproj",
-      "msbuildProject": "../CondominioMaster.Infra.CrossCutting.IoC/CondominioMaster.Infra.CrossCutting.IoC.csproj"
-    },
     "CondominioMaster.Infra.Data/1.0.0": {
       "type": "project",
       "path": "../CondominioMaster.Infra.Data/CondominioMaster.Infra.Data.csproj",
@@ -5097,7 +5081,6 @@
     ".NETStandard,Version=v2.0": [
       "CondominioMaster.Domain >= 1.0.0",
       "CondominioMaster.Domain.Shared >= 1.0.0",
-      "CondominioMaster.Infra.CrossCutting >= 1.0.0",
       "CondominioMaster.Infra.Data >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.DataAnnotations >= 2.0.1",
       "Microsoft.AspNetCore.Mvc.ViewFeatures >= 2.0.1",
@@ -5140,9 +5123,6 @@
             },
             "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Domain\\CondominioMaster.Domain.csproj": {
               "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Domain\\CondominioMaster.Domain.csproj"
-            },
-            "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.CrossCutting\\CondominioMaster.Infra.CrossCutting.csproj": {
-              "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.CrossCutting\\CondominioMaster.Infra.CrossCutting.csproj"
             },
             "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.Data\\CondominioMaster.Infra.Data.csproj": {
               "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Infra.Data\\CondominioMaster.Infra.Data.csproj"
