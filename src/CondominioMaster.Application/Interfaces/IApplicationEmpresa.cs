@@ -6,13 +6,13 @@ namespace CondominioMaster.Application.Interfaces
 {
     public interface IApplicationEmpresa : IDisposable
     {
-        EdificacaoViewModel Adicionar(EdificacaoViewModel empresa);
-        EdificacaoViewModel Atualizar(EdificacaoViewModel empresa);
-        EdificacaoViewModel Remover(EdificacaoViewModel empresa);
-        IEnumerable<EdificacaoViewModel> ObterTodos();
-        EdificacaoViewModel ObterPorId(int id);
-        EdificacaoViewModel ObterPorCpfCnpj(string cpfcnpj);
-        EdificacaoViewModel ObterPorApelido(string apelido);
-        EdificacaoViewModel ObterPorNome(string nome);
+        EmpresaViewModel Adicionar(EmpresaViewModel empresa);
+        EmpresaViewModel Atualizar(EmpresaViewModel empresa);
+        EmpresaViewModel Remover(EmpresaViewModel empresa);
+        IEnumerable<EmpresaViewModel> ObterTodos();
+        EmpresaViewModel ObterPorId(int id);
+        EmpresaViewModel ObterPorCpfCnpj(string cpfcnpj);
+        EmpresaViewModel ObterPorApelido(string apelido);
+        EmpresaViewModel ObterPorNome(string nome);
     }
 }

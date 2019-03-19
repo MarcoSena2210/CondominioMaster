@@ -6,3 +6,11 @@ F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Deb
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.AssemblyInfo.cs
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.pdb
+E:\DEV\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.deps.json
+E:\DEV\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.dll
+E:\DEV\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.pdb
+E:\DEV\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+E:\DEV\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.AssemblyInfoInputs.cache
+E:\DEV\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.AssemblyInfo.cs
+E:\DEV\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.dll
+E:\DEV\CondominioMaster\src\CondominioMaster.Infra.CrossCutting\obj\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.pdb

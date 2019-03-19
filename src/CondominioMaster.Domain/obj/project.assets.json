@@ -212,23 +212,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\msena\\.nuget\\packages\\": {},
+    "C:\\Users\\mcampos\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Domain\\CondominioMaster.Domain.csproj",
+      "projectUniqueName": "E:\\DEV\\CondominioMaster\\src\\CondominioMaster.Domain\\CondominioMaster.Domain.csproj",
       "projectName": "CondominioMaster.Domain",
-      "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Domain\\CondominioMaster.Domain.csproj",
-      "packagesPath": "C:\\Users\\msena\\.nuget\\packages\\",
-      "outputPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Domain\\obj\\",
+      "projectPath": "E:\\DEV\\CondominioMaster\\src\\CondominioMaster.Domain\\CondominioMaster.Domain.csproj",
+      "packagesPath": "C:\\Users\\mcampos\\.nuget\\packages\\",
+      "outputPath": "E:\\DEV\\CondominioMaster\\src\\CondominioMaster.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\msena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mcampos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -241,8 +241,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Domain.Shared\\CondominioMaster.Domain.Shared.csproj": {
-              "projectPath": "F:\\PROJETOS\\DDD\\CondominioMaster\\src\\CondominioMaster.Domain.Shared\\CondominioMaster.Domain.Shared.csproj"
+            "E:\\DEV\\CondominioMaster\\src\\CondominioMaster.Domain.Shared\\CondominioMaster.Domain.Shared.csproj": {
+              "projectPath": "E:\\DEV\\CondominioMaster\\src\\CondominioMaster.Domain.Shared\\CondominioMaster.Domain.Shared.csproj"
             }
           }
         }

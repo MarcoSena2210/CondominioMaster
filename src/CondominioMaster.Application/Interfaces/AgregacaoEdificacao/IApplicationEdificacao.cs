@@ -1,7 +1,7 @@
 ﻿using CondominioMaster.Application.ViewModels;
 using System;
 using System.Collections.Generic;
-using System.Text;
+
 
 namespace CondominioMaster.Application.Interfaces.AgregacaoEdificacao
 {

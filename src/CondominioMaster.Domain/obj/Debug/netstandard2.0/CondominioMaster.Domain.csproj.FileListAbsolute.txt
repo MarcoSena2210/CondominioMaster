@@ -12,3 +12,17 @@ F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstanda
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.csproj.CopyComplete
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.dll
 F:\PROJETOS\DDD\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.pdb
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Domain.deps.json
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Domain.dll
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Domain.pdb
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Domain.Shared.dll
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.dll
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Domain.Shared.pdb
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\bin\Debug\netstandard2.0\CondominioMaster.Infra.CrossCutting.pdb
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.csprojAssemblyReference.cache
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.csproj.CoreCompileInputs.cache
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.AssemblyInfoInputs.cache
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.AssemblyInfo.cs
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.csproj.CopyComplete
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.dll
+E:\DEV\CondominioMaster\src\CondominioMaster.Domain\obj\Debug\netstandard2.0\CondominioMaster.Domain.pdb
