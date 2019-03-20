@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using CondominioMaster.Site.Data;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CondominioMaster.Site.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CondominioMaster.Site
 {
-    public class Startup
+     public class Startup
     {
         public Startup(IConfiguration configuration)
         {
@@ -30,7 +25,7 @@ namespace CondominioMaster.Site
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-                options.CheckConsentNeeded = context => true;
+                options.CheckCo.nsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
@@ -41,10 +36,23 @@ namespace CondominioMaster.Site
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-        }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+               // Add application services.
+               services.AddTransient<IEmailSender, EmailSender>();
+               services.AddMvc();
+               services.AddDistributedMemoryCache(); // Adds a default in-memory implementation of IDistributedCache
+               services.AddAutoMapper();
+               RegistersServices(services);
+          }
+
+          private static void RegistersServices(IServiceCollection service)
+          {
+               NativeInjectorMapping.RegisterServices(service);
+          }
+
+
+          // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+          public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -65,7 +73,12 @@ namespace CondominioMaster.Site
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute(
+                 //* Acrecentamos para trabalhar  com area*/
+                 routes.MapRoute(
+                 name: "areas",
+                 template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                 //* Acrecentamos para trabalhar  com area*/
+                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });

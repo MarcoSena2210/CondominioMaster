@@ -4,16 +4,13 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.1" PrivateAssets="All" />
-     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" PrivateAssets="All" />
-  </ItemGroup>
-
      <ItemGroup>
-          <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
-          <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.1" />
+          <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="3.2.0" />
+          <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
           <PackageReference Include="CoreCompat.System.Drawing" Version="1.0.0-beta006" />
+          <PackageReference Include="Microsoft.AspNetCore.App" />
+       <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" /> 
+          <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.6" PrivateAssets="All" />
      </ItemGroup>
 
      <ItemGroup>
@@ -33,6 +30,13 @@
   <ItemGroup>
     <Folder Include="Areas\Financeiro\Controllers\" />
     <Folder Include="Areas\Financeiro\Views\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Compile Update="Startup.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
 </Project>

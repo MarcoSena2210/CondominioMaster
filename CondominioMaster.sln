@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Applicatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.UI.Site.MVC", "src\CondominioMaster.UI.Site.MVC\CondominioMaster.UI.Site.MVC.csproj", "{A720709D-E562-420D-AFE6-4D8ADFC18887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondominioMaster.Infra.CrossCutting.IoC", "src\CondominioMaster.Infra.CrossCutting.IoC\CondominioMaster.Infra.CrossCutting.IoC.csproj", "{8C70094C-45DD-40FD-94B7-950BAF66D1E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Infra.CrossCutting.IoC", "src\CondominioMaster.Infra.CrossCutting.IoC\CondominioMaster.Infra.CrossCutting.IoC.csproj", "{8C70094C-45DD-40FD-94B7-950BAF66D1E2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CondominioMaster.Infra.CrossCutting", "src\CondominioMaster.Infra.CrossCutting\CondominioMaster.Infra.CrossCutting.csproj", "{D571E974-6B2A-4CC8-9DA8-C973EB3558FE}"
 EndProject

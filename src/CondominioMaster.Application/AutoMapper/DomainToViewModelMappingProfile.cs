@@ -5,7 +5,7 @@ using CondominioMaster.Domain.Entities;
 using CondominioMaster.Domain.Entities.AgregacaoEdificacao;
 using CondominioMaster.Infra.CrossCutting.Extensions;
 
-namespace Projeto.Curso.Core.Application.Pedido.AutoMapper
+namespace CondominioMaster.Application.AutoMapper
 {
      public class DomainToViewModelMappingProfile : Profile
     {

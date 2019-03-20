@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Projeto.Curso.Core.Application.Pedido.AutoMapper
+namespace CondominioMaster.Application.AutoMapper
 {
     public class AutoMapperConfiguration
     {
